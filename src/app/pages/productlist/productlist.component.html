@@ -1,8 +1,24 @@
+<!-- Page Content -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="fw-light">All Product</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab
+      nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda
+      aspernatur facere ipsam nemo ratione cumque magnam enim fugiat
+      reprehenderit expedita.
+    </p>
+  </div>
+</section>
 <section id="home-section">
   <div class="container">
     <div class="row">
       <div class="col-4" *ngFor="let product of products">
-        <div class="card" style="width: 18rem" (click)="viewProductDetail(product)">
+        <div
+          class="card"
+          style="width: 18rem"
+          (click)="viewProductDetail(product)"
+        >
           <div class="card-body">
             <a [routerLink]="['/products', product.id]">
               <img [src]="product.imgUrl" alt="" class="card-img-top" />
