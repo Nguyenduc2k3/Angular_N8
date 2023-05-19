@@ -12,12 +12,6 @@ import { ProductsComponent } from './pages/admin/products/products.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
-  // {path:'',component:HomeComponent},
-  // {path:'home',component:HomeComponent},
-  // {path:'products',component:ProductlistComponent},
-  // {path:'products/:id',component:ProductdetailComponent},
-  // {path:'login', component:LoginComponent},
-  // {path:'register', component:RegisterComponent}
   {
     path: '',
     component: LayoutComponent,
