@@ -17,6 +17,8 @@ import { DashboardComponent } from './pages/admin/dashboard/dashboard.component'
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { LayoutComponent } from './layouts/layout/layout.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -35,10 +37,12 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     ProductsComponent,
     LayoutComponent,
     NotFoundComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
