@@ -37,7 +37,6 @@ import { FormsModule } from '@angular/forms';
     ProductsComponent,
     LayoutComponent,
     NotFoundComponent
-
   ],
   imports: [
     BrowserModule,
