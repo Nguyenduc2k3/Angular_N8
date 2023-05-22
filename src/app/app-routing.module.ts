@@ -31,16 +31,16 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo:'dashboard',
-        pathMatch:'full',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
       },
       {
-        path:'dashboard',
+        path: 'dashboard',
         component: DashboardComponent,
       },
       {
         path: 'products',
-        component:ProductsComponent,
+        component: ProductsComponent,
 
       }
     ]

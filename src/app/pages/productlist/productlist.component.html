@@ -1,6 +1,6 @@
 <!-- Full Page Image Header with Vertically Centered Content -->
 <header class="masthead">
-  <div class="container h-100">
+  <div class="container h-100 animate__animated animate__fadeInUp">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
         <!-- <h1 class="fw-bolder text-white">iPhone 14 Pro Max 1TB</h1>
@@ -25,11 +25,7 @@
   <div class="container">
     <div class="row">
       <div class="col-4" *ngFor="let product of products">
-        <div
-          class="card"
-          style="width: 18rem"
-          (click)="viewProductDetail(product)"
-        >
+        <div class="card" style="width: 18rem" (click)="viewProductDetail(product)">
           <div class="card-body">
             <a [routerLink]="['/products', product.id]">
               <img [src]="product.imgUrl" alt="" class="card-img-top" />
